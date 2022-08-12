@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+body {
+    font-family: 'Figtree', sans-serif;
+
+    padding: 0px;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 900;
+    background-color: #fff;
+    color: #343148;
+}
+
+.center {
+text-align: center;
+}   
+h2 {
+    font-family: 'Hurricane', cursive;
+}
+ul {
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+ul {
+    width: 100%;
+}
+aside {
+    float: right;
+    width: 40%;
+}
+.container section {
+    float: left;
+    width: 60%;
+}
+main li {
+width: 70%;
+margin-left: 50px;
+}
+a {
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+}
+nav li a, span { 
+    color: #fefefe;
+    font-weight: bolder;
+    font-size: 17px;
+}
+nav li {
+    float: left;
+    width: 20%;
+    padding:20px 0;
+    /* border: 2px solid #fff; */
+    text-align: center;
+    color: #fff;
+}
+header nav {
+    overflow: auto;
+
+    margin: 0 auto!important;
+    background-color: #615f71;
+}
+
+nav li:hover {
+    
+    cursor: pointer;
+    background-color: #000;
+
+}
+nav li ul {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 20px;
+    width: 20%;
+    background-color: #615f71;
+
+}
+nav li ul li {
+    display: block;
+    cursor: pointer;
+    background-color: #615f71;
+    width: 100%;;
+
+}
+nav li:hover ul {
+    display: block;
+}
+header {
+    padding-top: 20px;
+    background-color: #343148;
+}
+header h2 {
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #a39d9d;
+    padding: 20px;
+    box-shadow: 3px 2px 7px;
+     background-color: #d7c49e;;
+    overflow: auto;
+    
+}
+h2 {
+    font-size: 35px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+footer{
+    background-color: #343148;
+  clear: both;
+    overflow: auto;
+}
+
+footer h2 {
+    
+    color: #cec3ae;
+}
+footer .section{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+footer li,a {
+    color: #cec3ae;
+    padding: 20px;;
+}
+footer li {
+    float: left;
+    width: 150px;
+    margin-top: 20px;
+}
+footer a {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 10px;
+}
+footer p {
+    color: #cec3ae;
+clear: both;
+font-weight: bold;
+}
+
+
+
+
+    
+/* MOBILE VIEW */
+@media screen and (max-width: 768px)  
+{
+
+
+    aside {
+        float: none;
+        width: 100%;
+    }
+    .container section {
+        float: none;
+        width: 100%;
+    }
+    main li {
+    width: 100%;
+    margin-left: 0px;
+    }
+
+
+    li {
+    width: 100%;
+    float: none;
+    }
+    nav li {
+        float: none;
+        width: 100%;
+        padding:20px 0;
+        /* border: 2px solid #fff; */
+        text-align: center;
+        
+    }
+    .container {
+        max-width:none;
+        width: 85%;
+        margin: 0 auto;
+        border: none;
+        padding: 20px;
+        box-shadow: none;
+        overflow: auto;
+        
+    }
+    footer{
+        overflow: auto;
+    }
+    
+ 
+    footer .section{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    footer li,a {
+        
+        padding: 10px 0;;
+  
+    }
+    footer li {
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+    }
+    footer a {
+    margin-top: 10px;
+    }
+    .container form {
+        width: 95%;
+        margin: 0 auto;
+    
+    }
+    form label {
+        display: block;
+        text-align: center;
+        width: 90%;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    form label input {
+        width:auto;
+        margin-left: 30px;
+        padding: 10px;
+    }
+ 
+
+
+    nav li ul {
+        display: none;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 20px;
+        width: 20%;
+    
+    }
+    nav li ul li {
+        display: block;
+        cursor: pointer;
+        width: 100%;;
+    
+    }
+    nav li:hover ul {
+        display: block;
+    }
+    nav li ul {
+ 
+        position: unset;
+        width: 100%;
+    
+    }
+
+    .image-viewer .image {
+
+        margin: 0 auto;
+        width: 90%;
+        height: 70%;
+        margin-top: 20%;
+    }
+
+ 
+    
+}
+
+
+
+
+
+
+
+
+/* TABLET VIEW */
+@media (min-width:769px) and (max-width:1024px) {
+
+    li {
+        width: 100%;
+        float: none;
+        }
+    nav li {
+   
+        padding:20px 0;
+        /* border: 2px solid #fff; */
+        text-align: center;
+        
+        
+    }
+    .container {
+        max-width:none;
+        width: 85%;
+        margin: 0 auto;
+        border: none;
+        padding: 20px;
+        box-shadow: none;
+        overflow: auto;
+        
+    }
+    footer{
+        
+        overflow: auto;
+    }
+    
+ 
+
+
+    .container form {
+        width: 95%;
+        margin: 0 auto;
+    
+    }
+    form label {
+        display: block;
+        text-align: center;
+        width: 90%;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    form label input {
+        width:auto;
+        margin-left: 30px;
+        padding: 10px;
+    }
+    
+   
+    
+}
